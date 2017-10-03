@@ -12,35 +12,26 @@ body {
   display: flex;
 }
 
-#map {
-  height: 100vh;
-  width: 100vw;
-}
-
 header {
   background-color: pink; 
   text-align: center;
   align-items: center;
 }
-/* 
-.things-to-do {
-  display: flex;
-  flex-direction: column; 
-} */
-
-/* .thing-child {
-  width: 300px; 
-} */
-
-/* #to-do-list {
-  width: 500px; 
-} */
 
 .sidebar {
   display: flex-inline;
-  background-color: white;
   flex-direction: column;
-  width: 300px;
+  width: 33%;
+  padding-left: 2vw;
+}
+
+h1#itinerary-title {
+  color: pink; 
+}
+
+#map {
+  height: 100vh;
+  width: 100vw;
 }
 
 @media () {
