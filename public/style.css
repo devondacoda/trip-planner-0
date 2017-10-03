@@ -5,7 +5,8 @@
 body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #C1B5AD;
+  background-color: rgba(51, 207, 155, 0.81);
+  /* width: 300px;  */
 }
 
 #map {
@@ -17,6 +18,26 @@ body {
   background-color: pink; 
 }
 
-#home {
-  color: orange;
+.things-to-do {
+  display: flex;
+  flex-direction: column; 
+}
+
+.thing-child {
+  width: 300px; 
+}
+
+#to-do-list {
+  width: 500px; 
+}
+
+.sidebar {
+  display: flex-inline;
+  /* align-content: flex-end; */
+  flex-direction: column;
+  width: 300px;
+}
+
+@media () {
+
 }
