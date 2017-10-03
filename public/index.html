@@ -1,11 +1,55 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>Trip Planner</title>
-    <link href="style.css">
+    <link href="style.css" rel="stylesheet">
   </head>
   <body>
-    
-    
+    <header>
+      <div id="navbar">
+        <a id="home" href="#">Home</a>
+        <a id="about" href="#">About</a>
+        <a id="contact" href="#">Contact</a>
+      </div>
+    </header>
+
+    <div id="things-to-do">
+      <div id="hotels">
+        <h2>Hotels</h2>
+        <input type="search" placeholder="Find Hotel">
+        <button>Search</button>
+      </div>
+      <div id="restaurants">
+          <h2>Restaurants</h2>
+          <input type="search" placeholder="Find Restaurant">
+          <button>Search</button>
+      </div>
+      <div id="activities">
+          <h2>Activities</h2>
+          <input type="search" placeholder="Activities">
+          <button>Search</button>
+      </div>  
+
+    </div>
+    <div id="itinerary">
+      <header>Itinerary:</header>
+     <div id="to-do-list">
+        <h2>My Hotel</h2>
+          <ul>
+            <li>Hi I'm here<input type="reset" value="x"></li>
+          </ul>
+        <h2>My Restaurants</h2>
+          <ul>
+            <li>Hi I'm here<input type="reset" value="x"></li>
+          </ul>
+        <h2>My Activities</h2>
+          <ul>
+            <li>Hi I'm here<input type="reset" value="x"></li>
+          </ul>
+     </div>
+     
+    </div>
+    <div id="map"></div>
     <script src="bundle.js"></script>
   </body>
 </html>
